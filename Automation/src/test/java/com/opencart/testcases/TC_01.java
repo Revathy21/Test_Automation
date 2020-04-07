@@ -16,6 +16,7 @@ public class TC_01 extends Base{
 	}
 	@Test
 	public void setUp() {
+		System.out.println("Test");
 		log.info("opening browser");
 		initialization();
 		log.info("click on my account");
